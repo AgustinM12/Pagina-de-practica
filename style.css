@@ -1,0 +1,107 @@
+
+
+body{
+    background-image: url('backmotw.png');
+   width: auto;
+}
+
+input{
+    background-color: red;
+    border: 1px solid white;
+    text-shadow: 1px 1px 1px white;
+}
+
+h1{
+    color: red; font-family: 'Times New Roman', Times, serif; 
+text-shadow: 5px 5px 5px white; text-align: center;
+text-shadow: 1px 1px 1px white;
+}
+
+h3{
+    color: whitesmoke;
+    text-decoration: underline crimson;
+}
+h4{
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px red;
+}
+
+li{
+    color: white;
+    font-style: italic;
+}
+
+label {
+    color: white; text-align: right; border: 2px solid red; 
+    background-color: black;
+}
+
+strong{
+    color: red;
+}
+
+.nav{
+    text-align: right;
+    border: 1px solid white;
+}
+
+.logo{
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+
+.logo img{
+    display: block;
+    margin: 0 auto;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    gap: 20px;
+}
+
+.left h4 {
+    text-align: center;
+}
+
+.left{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    text-decoration: underline red;
+    width: 15%;
+    text-align: left;
+    height: fit-content;
+    }
+
+.center{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid white;
+    width: 60%;
+    height: fit-content;
+    
+}
+
+.right{
+    background-color: rgb(163, 161, 161);
+    border: 1px solid rgb(142, 0, 0);
+    width: 25%;
+    text-align: center;
+    height: fit-content;
+}
+
+.foot {
+    color: white;
+    background-color: black;
+}
+
+.nav{
+    background-color: rgb(57, 57, 57);
+}
+
